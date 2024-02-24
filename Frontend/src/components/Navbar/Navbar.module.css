@@ -1,0 +1,115 @@
+
+
+.playstore, .home, .searchIcon {
+    height: 20px;
+}
+                                                   
+.container {
+  display: grid;
+  grid-template-columns: 5px 2fr 1fr 4.5fr 1fr 0.25fr 0.25fr .75fr .75fr 25px;
+  gap: 15px;
+  height: 50px;
+  background-color: #76B0E9;
+  position:sticky;
+  top: 0;
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.mainlogo {
+    grid-column: 2/3;
+    font-size: 1.5rem;     
+}
+
+.mainlogo > img {
+  height: 40px;
+}
+
+.logo{
+  margin-top: 5px;
+}
+
+.boidata {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-decoration: none; 
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.authButton {
+  background-color:  #000; 
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  width: fit-content;
+  min-width: 8rem;
+  /* height: fit-content; */
+  /* display: inline-block; */
+}
+
+.authButton:hover {
+  background-color: #fff ;
+  color: #000; 
+  text-decoration: none;
+}
+
+.item a:active {
+  /* background-color: #fff ; */
+  /* color: #474747;  */
+  text-decoration: none;
+}
+
+/* .authButton a:hover, .authButton a.active {
+  background-color: #d6d4d4 ;
+  color: #000; 
+} */
+                                           
+  .search {
+    width: 100%;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;  
+    justify-content: left;
+    border-radius: 20px;
+    padding: 8px;
+  }
+
+  .search > input {
+    width:95%;
+    background-color: #fff;
+    border: 0px;
+    outline: none;
+  }
+
+  .InstituteLink, .Categories{
+    text-decoration: none;
+    color: #fff;
+  }
+
+.playstoreLink, .homeLink{
+    text-decoration: none;
+    display: flex;
+    color: #000;
+  }
+
+  .Categories {
+    grid-column: 3/4;
+    font-size: 1.5rem;
+  }
+                                                        
+  .InstituteLink {
+    font-size: 1.5rem;
+  }
+ 

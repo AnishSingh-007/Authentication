@@ -1,0 +1,42 @@
+/* YourApp.css (or any other CSS file you are using) */
+.hoverContainer {
+    position: relative;
+    display: inline-block;
+    /* margin-bottom: 30px; */
+    /* padding-bottom: 30px; */
+    z-index: 1;
+  }
+  
+  .dropdownMenu {
+    display: none;
+  }
+  
+  .hoverContainer a:hover .dropdownMenu {
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #d1d1d1;
+  }
+  
+     
+.dropdownItem {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border: 1px solid #d6d0d0;
+  color: black;
+  width: 200px;
+  list-style: none;
+  font-size: 16px;
+ 
+}
+
+.dropdownItem > a {
+  /* background-color: #f9f9f9;
+  border: 1px solid #d6d0d0;
+  color: black; */
+  text-decoration: none;
+  
+}

@@ -1,0 +1,61 @@
+/* MobileOtpVerification.css */
+
+.otpContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: .5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .otpContainer > h2 {
+    margin-bottom: 20px;
+  }
+  
+  .inputField {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  .actionButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .errorMessage {
+    color: red;
+  }
+
+  .otpInputDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+  }
+
+  .otpInputDiv input {
+    width: 40px;
+    height: 40px;
+    padding: 0.75rem; /* 1rem is 16px, so 0.75rem is 12px */
+    border: .5px solid black;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    /* outline: none; */
+  }
+  
+  .otpInputDiv input:focus {
+    /* border-width: 2px; */
+    border: 2px solid black;
+  }
+  

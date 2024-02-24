@@ -1,0 +1,335 @@
+.cart-icon-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  /*margin-right:15px;*/
+}
+
+.header-for-intro {
+  border: solid 1px;
+     height: 5rem;
+}
+
+.header-for-intro{
+    text-alignment: right;
+}
+
+.for-intro-row1-image-introproduct{
+display: flex;
+}
+
+.circle-for-intro {
+    top: 5px;
+    right: 3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4E73DF;
+    color: white;
+    position: absolute;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;/* Set the background color */
+}
+
+.circle-for-close {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #D1D1D1;
+    color: white;
+   
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;/* Set the background color */
+}
+
+.icon-cross-cart{
+  color: black;
+}
+
+.container-body-for-intro {
+    /*border: solid 1px;*/
+
+  margin:0 auto;
+      width: 94%;
+      margin-top: 1rem;
+}
+
+.row1-for-intro{
+     height: 29rem;
+    /*border: solid 1px;*/
+}
+
+.for-image-intro{
+height: 85%;
+    /*border: 1px solid black;*/
+    display: inline-block;
+  
+}
+
+/* Styles for the image gallery container */
+.image-container {
+display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black;*/
+    /* margin-bottom: 20px; */
+    height: 100%;
+    width: 100%;
+}
+
+.image-container img {
+      max-width: 100%;
+    max-height: 100%;
+      /*border: 1px solid black;*/
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  color: #888;
+    /*border: 1px solid black;*/
+}
+
+/* Styles for the thumbnails container */
+.thumbnails {
+      display: flex;
+    justify-content: centre;
+    /*border: 1px solid black;*/
+    height: 80px;
+    margin-top: 1rem;
+}
+
+.thumbnail {
+  margin: 0 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease-in-out;
+       width: 108px;
+    height: 80px;
+      /*border: 1px solid black;*/
+}
+
+.thumbnail:hover {
+  border-color: #007bff;
+}
+
+
+.row2-for-intro{
+    /*border: 1px solid black;*/
+    width: 50%;
+    margin-left: 2rem;
+}
+
+
+.name-of-the-product h2{
+      font-size: 35px;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.discounted-price-intro {
+display: inline-block;
+margin-left: 12px;
+}
+
+
+.original-price-intro {
+text-decoration: line-through;
+  display: inline-block;
+   margin-bottom: 0px!important;
+ 
+}
+
+
+.price-details-intro{
+width: 88%;
+    display: flex;
+      font-size: 16px;
+    vertical-align: middle;
+   
+    align-items: center;
+}
+
+.price-details-intro p{
+  margin-bottom: 0px!important;
+}
+
+
+.intro-of-the-product{
+      /*border: 1px solid blue;*/
+ margin-top: 2rem;
+}
+
+.intro-1{
+
+  
+  font-size: 14px;
+}
+
+.intro-2{
+       /*border: 1px solid blue;*/
+    padding: 10px 0px 10px 0px;
+    
+  font-size: 14px;
+}
+
+.tick{
+        margin-right: 17px!important;
+}
+
+
+
+
+
+
+
+
+
+#selectField-intro {
+  width: 125px;
+       padding: 11px 0.75rem;
+  border: 1px solid #8d8484;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.add-to-cart-buy-modal-intro{
+  width: 478px;
+       padding: 11px 0.75rem;
+  border: 1px solid #8d8484;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 0px;
+  cursor: pointer;
+     margin-left: 20px;
+}
+
+.for-duration-buy-modal-intro
+{
+    display: inline-block;
+  width: 100%;
+}
+
+
+#buyButton-intro {
+       padding: 11px 0.75rem;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+     width: 99%;
+
+}
+
+.Value-deal {
+    /*background: #a4f3b1;*/
+    margin-left: 20px;
+}
+
+.Value-deal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 30px;
+
+    margin-bottom: 0.28125rem;
+    background: #a9d1e5bf;
+    border-radius: 31px;
+  padding: 22px 7px !important;
+}
+
+.Value-deal p {
+    color: black;
+    padding: 0 20px;
+       font-weight: 400;
+    font-style: italic;
+    font-size: 14px;
+}
+
+
+/* Shiping form */
+
+.modal_dialog {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.modal_content{
+position: relative;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+outline: 0;
+}
+
+.modal_header{
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.modal_title{
+  margin: 0;
+  line-height: 1.42857143;
+}
+
+.close{
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.2;
+}
+
+.modal_body{
+  position: relative !important;
+    padding: 15px !important;
+    float: left !important;
+    width: 100% !important;
+    background: white !important;
+}
+
+.form_group{
+  overflow: auto;
+}
+
+.modal_form_control{
+  float: left;
+  width: 100%;
+  border-radius: 10px;
+  padding: 13px;
+  margin-bottom: 15px;
+  border: 2px solid grey;
+  outline: none;
+}
+
+.button_div{
+  border: none;
+  background: #207cbd;
+  padding: 13px 37px;
+  border-radius: 11px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+  width: 100%;
+}

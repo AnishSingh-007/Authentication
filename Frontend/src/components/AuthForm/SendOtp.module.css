@@ -1,0 +1,181 @@
+/* Add these styles to your existing styles or create a new stylesheet */
+
+.form {
+  max-width: 40rem;
+  margin: 2rem auto;
+  height: 70vh;
+}
+
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+}
+
+.actions a {
+  text-decoration: none;
+  background-color: transparent;
+  color: var(--color-gray-300);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.otpContainer {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* text-align: center; */
+  }
+
+  .otpContainer p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .otpContainer h2 {
+    margin-bottom: 20px;
+    font-size: xx-large;
+    text-align: center;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .inputField {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid ;
+    width: 235px;
+  }
+
+  .mobileNumber{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 20px; */
+    padding: 2px;
+  }
+
+  .mobileNumber > p {
+    font-weight: 600;
+    margin: 10px;
+  }
+  
+  .editIcon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .resendOtpTimer{
+    font-size: 2px;
+  }
+
+  .resendOtp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+    /* margin: 20px; */
+    /* padding: 2px; */
+  }
+  
+  .actionButton {
+    /* background-color: #4caf50; */
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.resendOtp .actionButton {
+      align-self: center;
+  }
+  
+  .actionButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .actionButton:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+  }
+
+  .error_msg, .success_msg {
+    width: 370px;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: #f34646;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .success_msg {
+    background-color: green;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .otpContainer {
+      max-width: 400px;
+    }
+  }
+
+    /* Media query for responsiveness */
+    @media (max-width: 500px) {
+        .otpContainer {
+          max-width: 100%;
+        }
+      }
+  
