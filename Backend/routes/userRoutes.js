@@ -6,6 +6,15 @@ const router = express.Router();
 
 router.post("/signup", authController.signup);
 router.post("/login", authController.login);
+
+router.post('/logout', (req, res) => {
+  // Clear the authentication cookie
+  res.clearCookie('token');
+  // Optionally, perform any other cleanup or logging
+  res.status(200).json({ message: 'Logged out successfully' });
+});
+
+
 router.get("/account-activation/:id/:token", authController.emailVerification);
 
 router.post("/forgotPassword", authController.forgotPassword);
@@ -22,6 +31,8 @@ router.patch(
   authController.protect,
   authController.updatePassword
 );
+
+
 router.patch("/updateMe", authController.protect, userController.updateMe);
 router.delete("/deleteMe", authController.protect, userController.deleteMe);
 

@@ -8,6 +8,7 @@ const helmet= require('helmet');
 const mongoSanitize= require('express-mongo-sanitize');
 const xss= require('xss-clean');
 const hpp= require('hpp');
+const cookieParser = require('cookie-parser');
 
 // Import Error Routes
 const AppError = require('./utils/appError');
@@ -26,7 +27,10 @@ if (process.env.NODE_ENV === 'development'){
 }
 
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:3000',
+    credentials: true
+}));
 
 //Limit requests from the same API
 const limiter = rateLimit({
@@ -64,6 +68,7 @@ app.use((req, res, next) => {
     next();
 });
 
+app.use(cookieParser());
 // 3) ROUTES 
 app.use('/api/v1/users', userRouter);
 

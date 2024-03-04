@@ -128,10 +128,9 @@ export async function action({ request }) {
                 status: 500,
               });
             }
-          
-          
-          
+        
             const resData = await response.json();
+            console.log(resData);
             const token = resData.token;
           
             localStorage.setItem("token", token);

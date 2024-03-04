@@ -419,7 +419,7 @@ exports.signup = catchAsync(async (req, res, next) => {
 
   const EmailVerificationURL = `http://localhost:3000/users/account-activation/${newUser._id}/${newEmailVerificationToken.token}`;
 
-  let tokenMessage = `New to INSTITUTEHUB? Click the url to verify your Email id : ${EmailVerificationURL}. 
+  let tokenMessage = `New to INSTITUTEHUB?\n Click the url to verify your Email id : ${EmailVerificationURL}. 
   \nIf you didn't creating your account, please ignore this email!`;
 
   try {
